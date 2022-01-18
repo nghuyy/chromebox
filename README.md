@@ -4,9 +4,11 @@
 
 ```yaml
 
- chromebox:
-   url: https://github.com/nghuyy/chromebox.git
-   ref: main
+  # Android CustomTabs
+  chromebox:
+    git:
+      url: https://github.com/nghuyy/chromebox.git
+      ref: main
 ```
 
  using:
