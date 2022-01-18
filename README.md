@@ -1,5 +1,6 @@
 # chromebox
- Only support Android
+ Chrome Custom Tab Support for Android 
+
 ## Getting Started
 
 ```yaml
