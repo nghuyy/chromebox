@@ -114,6 +114,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  osplatform:
+    dependency: transitive
+    description:
+      path: "."
+      ref: main
+      resolved-ref: c6a77c7d7ad751c78bd34a7f9bc98ebe2bf17791
+      url: "https://github.com/nghuyy/osplatform.git"
+    source: git
+    version: "1.0.0+1"
   path:
     dependency: transitive
     description:
@@ -121,6 +130,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   sky_engine:
     dependency: transitive
     description: flutter
