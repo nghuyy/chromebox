@@ -1,4 +1,3 @@
-
 import 'dart:async';
 import 'package:osplatform/OSPlatform.dart';
 import 'package:flutter/services.dart';
@@ -12,9 +11,9 @@ class Chromebox {
   }
 
   static Future<void> startTab(String url) async {
-    if(AndroidOS) {
+    if (AndroidOS) {
       await _channel.invokeMethod('startTab', <String, String>{"url": url});
-    }else{
+    } else {
       print("Only support startTab on AndroidOS");
     }
   }
