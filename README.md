@@ -1,9 +1,13 @@
 # chromebox
  Only support Android
 ## Getting Started
+
+```yaml
+
  chromebox:
    url:
    ref: main
+```
 
  using:
  ```dart
