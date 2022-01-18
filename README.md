@@ -5,7 +5,7 @@
 ```yaml
 
  chromebox:
-   url:
+   url: https://github.com/nghuyy/chromebox.git
    ref: main
 ```
 
