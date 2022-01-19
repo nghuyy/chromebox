@@ -4,7 +4,6 @@
 ## Getting Started
 
 ```yaml
-
   # Android CustomTabs
   chromebox:
     git:
